@@ -1,0 +1,15 @@
+void introGM();
+void gameModeMP();
+void gameMode4FUN();
+void gameModeQSS();
+void gameModeAS();
+void getPassword(int *password, int size);
+void passwordGenerator(int *password, int limit, int size, int repeat);
+void getAttempt(int *attempt, int size);
+void skipProgram(int *password, int size);
+void printAttempt(int attemptCount, int size, int *attempt, int tipTrue, int tipFalse);
+int checkPassword(int *passwordT, int *passwordA, int size, int *countTrue, int *countFalse);
+int attemptLimit(int attemptCount, int limitAtt);
+void skipProgramv(int *password, int size);
+void gameModeCT();
+int attemptOK(int *attempt, int size, int limit);

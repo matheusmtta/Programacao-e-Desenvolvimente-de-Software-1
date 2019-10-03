@@ -1,0 +1,11 @@
+void introGM();
+void gameMode1();
+void gameMode2();
+void gameMode3();
+void gameModeTest();
+void passwordGenerator(int *password, int limit, int size, int repeat);
+void getAttempt(int *attempt, int size);
+void skipProgram(int *attempt, int size);
+void printAttempt(int attemptCount, int size, int *attempt, int tipTrue, int tipFalse);
+int checkPassword(int *password, int *attempt, int size, int *countTrue, int *countFalse);
+int attemptOK(int *attempt, int size, int limit);
